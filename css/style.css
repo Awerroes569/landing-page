@@ -1,3 +1,20 @@
+/* VARIABLES */
+/* GLOBAL */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* Temporary outline borders for debugging */
+  outline: 1px solid red !important;
+}
 
+/* FIRST PAGE */
+.first-page-center {
+  height: 80vh;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBRUEsV0FBQTtBQUVBOzs7RUFHSSxzQkFBQTtFQUNBLDRDQUFBO0VBQ0EsaUNBQUE7QUNESjs7QURJQSxlQUFBO0FBRUE7RUFDSSxZQUFBO0FDRko7O0FES0E7RUFDSSxpQkFBQTtBQ0ZKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

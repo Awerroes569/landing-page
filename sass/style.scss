@@ -1,0 +1,21 @@
+/* VARIABLES */
+
+/* GLOBAL */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /* Temporary outline borders for debugging */
+    outline: 1px solid red !important; 
+}
+
+/* FIRST PAGE */
+
+.first-page-center {
+    height: 80vh;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
