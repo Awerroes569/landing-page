@@ -9,23 +9,31 @@ $color: rgb(154, 24, 24);
 *::after {
     box-sizing: border-box;
     /* Temporary outline borders for debugging */
-    /*outline: 1px solid red !important; */
+    outline: 1px solid rgb(16, 82, 145) !important; 
+}
+
+/* BODY */
+
+body {
+    background: black;
 }
 
 /* FIRST PAGE */
 
+.first-page::before {
+    content: "";
+    background: url(https://i.postimg.cc/cJ9VwXdP/gun1.jpg) center/cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
 .first-page-center {
     height: 80vh;
-    ::before {
-            content: "";
-            background: url(https://i.postimg.cc/cJ9VwXdP/gun1.jpg) center/cover;
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: -1;
-        }
+    
     @media (max-width: 768px) {
         height: 60vh;
     }
@@ -74,6 +82,48 @@ $color: rgb(154, 24, 24);
     background-color: transparent !important;
     /* Set background color to transparent */
 }
+
+/* SERVICES */
+
+.background-bloody {
+    background: $color;
+}
+
+.services {
+    h1 {
+        font-size: calc(1.375rem + 2.5vw);
+        color: black;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: calc(.975rem + 2.5vw);
+        color: black;
+        font-weight: bold;
+        margin-top: calc(.975rem + 5vw);
+    }
+
+    h2 {
+        font-size: calc(0.5rem + 2.5vw);
+        color: black;
+        font-weight: bold;
+    }
+
+}
+
+.services-text {
+    padding: 20px;
+    color: black;
+    font-size: calc(0.4rem + 1.0vw);
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo-services {
+    font-size: calc(2.5rem + 2.5vw);
+    color:black;
+}
+
+
 
 
 
