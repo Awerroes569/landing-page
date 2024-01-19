@@ -14,7 +14,11 @@ $color: rgb(154, 24, 24);
 
 /* BODY */
 
-body {
+body, .portfolio {
+    background: black;
+}
+
+.blacky {
     background: black;
 }
 
@@ -89,7 +93,9 @@ body {
     background: $color;
 }
 
-.services {
+
+
+.services{
     h1 {
         font-size: calc(1.375rem + 2.5vw);
         color: black;
@@ -122,6 +128,53 @@ body {
     font-size: calc(2.5rem + 2.5vw);
     color:black;
 }
+
+/* PORTFOLIO */
+
+.portfolio {
+    h1 {
+        font-size: calc(1.175rem + 3.0vw);
+        color: $color;
+        font-weight: bold;
+        margin: calc(.975rem + 2vw) 0;
+    }
+
+    h3 {
+        font-size: calc(.775rem + 2.0vw);
+        color: black;
+        font-weight: bold;
+        margin-top: calc(.975rem + 5vw);
+    }
+
+    h2 {
+        font-size: calc(0.5rem + 2.5vw);
+        color: black;
+        font-weight: bold;
+    }
+
+    .card {
+        background: black;
+        p {
+            color: $color;
+            font-size: 28px;
+            text-align: center;
+            text-justify: center;
+        }
+        img {
+            height: 450px;    
+        }
+    }
+}
+
+/* FOOTER */
+
+.footer {
+    background: $color;
+    color: black;
+    font-size: 36px;
+}
+
+
 
 
 
