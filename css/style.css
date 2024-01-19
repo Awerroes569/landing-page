@@ -5,12 +5,27 @@
 *::after {
   box-sizing: border-box;
   /* Temporary outline borders for debugging */
-  outline: 1px solid red !important;
+  /*outline: 1px solid red !important; */
 }
 
 /* FIRST PAGE */
 .first-page-center {
   height: 80vh;
+}
+.first-page-center ::before {
+  content: "";
+  background: url(https://i.postimg.cc/cJ9VwXdP/gun1.jpg) center/cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+@media (max-width: 768px) {
+  .first-page-center {
+    height: 60vh;
+  }
 }
 
 .min-vh-100 {
@@ -21,4 +36,39 @@
   min-height: 50vh;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBRUEsV0FBQTtBQUVBOzs7RUFHSSxzQkFBQTtFQUNBLDRDQUFBO0VBQ0EsaUNBQUE7QUNESjs7QURJQSxlQUFBO0FBRUE7RUFDSSxZQUFBO0FDRko7O0FES0E7RUFDSSxpQkFBQTtBQ0ZKOztBREtBO0VBQ0ksZ0JBQUE7QUNGSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.logo-company {
+  color: rgb(154, 24, 24);
+}
+
+.logo-main {
+  font-size: calc(3.375rem + 2.5vw);
+}
+
+.invitation {
+  font-size: calc(0.975rem + 2.5vw);
+  color: rgb(154, 24, 24);
+  font-weight: bold;
+}
+
+.helping {
+  font-size: calc(1.375rem + 2.5vw);
+  color: rgb(154, 24, 24);
+  font-weight: bold;
+}
+
+.btn-bloody {
+  color: rgb(154, 24, 24);
+}
+
+.btn-color {
+  background: rgb(154, 24, 24);
+  color: black;
+  font-weight: bold;
+}
+
+.list-group-item-transparent {
+  background-color: transparent !important;
+  /* Set background color to transparent */
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBSUEsV0FBQTtBQUVBOzs7RUFHSSxzQkFBQTtFQUNBLDRDQUFBO0VBQ0Esc0NBQUE7QUNISjs7QURNQSxlQUFBO0FBRUE7RUFDSSxZQUFBO0FDSko7QURLSTtFQUNRLFdBQUE7RUFDQSxvRUFBQTtFQUNBLGtCQUFBO0VBQ0EsTUFBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBQ0EsT0FBQTtFQUNBLFdBQUE7QUNIWjtBREtJO0VBWko7SUFhUSxZQUFBO0VDRk47QUFDRjs7QURNQTtFQUNJLGlCQUFBO0FDSEo7O0FETUE7RUFDSSxnQkFBQTtBQ0hKOztBRE1BO0VBQ0ksdUJBekNJO0FDc0NSOztBRE1BO0VBQ0ksaUNBQUE7QUNISjs7QURNQTtFQUNJLGlDQUFBO0VBQ0EsdUJBbERJO0VBbURKLGlCQUFBO0FDSEo7O0FETUE7RUFDSSxpQ0FBQTtFQUNBLHVCQXhESTtFQXlESixpQkFBQTtBQ0hKOztBRE1BO0VBQ0ksdUJBN0RJO0FDMERSOztBRE1BO0VBQ0ksNEJBakVJO0VBa0VKLFlBQUE7RUFDQSxpQkFBQTtBQ0hKOztBRE1BO0VBQ0ksd0NBQUE7RUFDQSx3Q0FBQTtBQ0hKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
